@@ -3,6 +3,8 @@ This project aims to automatically segment carotid from 3D MR brain image, and u
 
 The vessel segmentation algorithm based on the algorithm proposed by Frangi et al. in 'Multiscale vessel enhancement filtering'. Image coregistration algoritm applied Powell's algorithm, Brent's method and mutual information. Partial volume correction applied Geometric Transfer Matrix(GTM) method.
 
+This project produced better results than PMOD did, in terms of the quality of vessel segmentation and the accuracy of image co-registration.
+
 ## How to use?
 Read the images first. DICOM file use DICOMSlices2Vol.m, NIfTI file use load_nii().
 

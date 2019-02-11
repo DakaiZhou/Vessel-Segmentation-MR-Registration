@@ -20,5 +20,6 @@ Examples:
 
 [p0, p,f, img, vf] = ImgCoreg(FE390M_filter, FE390M_MR, [0,0,0,0.01,0.01,0.01]);
 
-## Some Example Result:
-[Patient3_ori_256_240_176.pdf](https://github.com/DakaiZhou/Automatic-Segmentation-of-Blood-Vessels-in-MR-Brain-Images/files/2852413/Patient3_ori_256_240_176.pdf)
+## Some Results:
+The three images below are the projections of original MR iamge, vessels segmentated from original MR image and vessels segmented from co-registered MR image.
+![screenshot from 2019-02-11 19-19-26](https://user-images.githubusercontent.com/47189577/52584473-718fc200-2e32-11e9-8263-32146f020a3b.png)

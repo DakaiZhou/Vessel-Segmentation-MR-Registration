@@ -1,5 +1,5 @@
 # Automatic-Segmentation-of-Blood-Vessels-in-MR-Brain-Images
-This project aims to automatically segment carotid from 3D MR brain image, and use the segmented carotid to extract Time-Activity-Curve from PET images. It mainly involves 3D image coregistration, vessel segmentation, partial valume correction.
+The code from this repository is from my master thesis. This project aims to automatically segment carotid from 3D MR brain image, and use the segmented carotid to extract Time-Activity-Curve from PET images. It mainly involves 3D image coregistration, vessel segmentation, partial valume correction.
 
 The vessel segmentation algorithm based on the algorithm proposed by Frangi et al. in 'Multiscale vessel enhancement filtering'. Image coregistration algoritm applied Powell's algorithm, Brent's method and mutual information. Partial volume correction applied Geometric Transfer Matrix(GTM) method.
 

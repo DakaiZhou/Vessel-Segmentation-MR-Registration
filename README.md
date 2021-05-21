@@ -5,8 +5,6 @@ The vessel segmentation algorithm based on the algorithm proposed by Frangi et a
 
 This project produced better results than PMOD did, in terms of the quality of vessel segmentation and the accuracy of image co-registration.
 
-### Happy to take as references, BUT do not plagiarize.
-
 ## How to use?
 Read the images first. DICOM file use DICOMSlices2Vol.m, NIfTI file use load_nii().
 
